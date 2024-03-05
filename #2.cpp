@@ -227,4 +227,72 @@ int main(){
 	return 0;
 }
 */
- 
+
+// TASK 18
+// Maqsad: c nuqta a va b nuqtalar orasida joylashgan ac vva bc kesmalar uzunligining ko`paytmasini toping
+/*
+int main(){
+	float a,b,c,ac,bc;
+	// a<c<b  yoki b<c<a;
+	cout << "a = ";cin>> a;
+	cout << "b = "; cin >> b;
+	cout << "c = "; cin >> c;
+	ac = fabs(a-c);
+	bc = fabs(b-c);
+	cout << "ac*bc = " << ac*bc;
+	return 0;
+	
+}
+*/
+
+// TASK 19
+// Maqsad: to`g`ri to`rtburchak uchlari koordinatalari beriladi to`g`ri to`rtburchakning yuzasi va perimetrini toping
+/*
+int main(){
+	float A,B,x1,x2,y1,y2;
+	cout << "x1 va y1 ni kiriting >> "; cin >> x1 >> y1;
+	cout << "x2 va y2 ni kiriting >> "; cin >> x2 >> y2;
+	A = fabs(y2-y1);
+	B = fabs(x2-x1);
+	cout << "S = " << A*B << endl;
+	cout << "P = " << 2*(A+B);
+	return 0; 
+}
+*/
+
+// TASK 20
+// Maqsad: Tekislikda berilgan ikkita nuqta orasidagi masofani topish
+/*
+int main(){
+	float x1,x2,y1,y2;
+	cout << "x1 = "; cin >> x1;
+	cout << "x2 = "; cin >> x2;
+	cout << "y1 = "; cin >> y1;
+	cout << "y2 = "; cin >> y2;
+	
+	cout << "L = " << sqrt(pow(x2-x1,2) + pow(y2-y1,2));
+	return 0;
+}
+*/
+
+// TASK 21
+// Maqsad: uchburchakning uchta tomoni koordinatalari berilgan uchburchakning yuzasini va perimetrini topish dasturinin tuzing
+/*
+int main(){
+	float x1,x2,x3,y1,y2,y3,p, a,b,c,S;
+	cout << "x1 = "; cin >> x1;
+	cout << "x2 = "; cin >> x2;
+	cout << "x3 = "; cin >> x3;
+	cout << "y1 = "; cin >> y1;
+	cout << "y2 = "; cin >> y2;
+	cout << "y3 = "; cin >> y3;
+	a = sqrt(pow(x2-x1,2) + pow(y2-y1,2));
+	b = sqrt(pow(x3-x2,2) + pow(y3-y1,2));
+	c = sqrt(pow(x3-x2,2) + pow(y3-y2,2));
+	p = (a+b+c)/2;
+	S = sqrt(p*(p-a)*(p-b)*(p-c));
+	cout << "S = " << S << endl;
+	
+	return 0;
+}
+*/
