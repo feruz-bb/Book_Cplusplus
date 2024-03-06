@@ -296,3 +296,103 @@ int main(){
 	return 0;
 }
 */
+
+// TASK 22
+// Maqsad: berilgan a va b sonlarning qiymatini almashtiruvcih dastur tuzing
+/*
+int main(){
+	float a, b, c;
+	cout << "a = "; cin >> a;
+	cout << "b = "; cin >> b;
+	c = a;
+	a = b;
+	cout << "a = " << a<< endl;
+	cout << "b = " << c ;
+}
+*/
+
+// TASK 23
+// Maqsad: A,B,C sonlarning qiymatlarini almashtirish
+/*
+int main(){
+	float a, b, c, d;
+	cout << "a = "; cin >> a;
+	cout << "b = "; cin >> b;
+	cout << "c = "; cin >> c;
+	d = a;
+	a = b;
+	b = c;
+	c = d;
+	cout << "a = " << a << endl; 
+	cout << "b = " << b << endl; 
+	cout << "c = " << c << endl;
+	return 0;
+} 
+*/
+
+// TASK 24
+// Maqsad: A,B,C sonlarning qiymatlarini almashtirish
+/*
+int main(){
+	float a,b,c,d;
+	cout << "a = "; cin >> a;
+	cout << "b = "; cin >> b;
+	cout << "c = "; cin >> c;
+	d = c;
+	c = b;
+	b = a;
+	a = d;
+	cout << "a = " << a <<endl;
+	cout << "b = " << b << endl;
+	cout << "c = " << c << endl;
+	return 0;
+}
+*/
+
+// TASK 25 
+// Maqsad: x ning qiymati berilganda funksiyaning qiymatini aniqlash
+/*
+int main(){
+	float x, y;
+	cout << "x = "; cin >> x;
+	y = 3*pow(x,6) - 6*pow(x,2) - 7;
+	cout << "y = " << y;
+	return 0;
+}
+*/
+
+// TASK 26 
+// Maqsad: x ning qiymati berilganda y ning qiymatini topish
+/*
+int main(){
+	float x,y;
+	cout << "x = "; cin >> x;
+	y = 4*pow(x-3,6) -7*pow(x-3,3) +2;
+	cout << "y = " << y;
+	return 0;
+}
+*/
+
+// TASK 27 , TASK 28
+// Maqsad: a sonning darajalarini aniqlash
+/*
+int main(){
+	float a;
+	cout << "a = "; cin >> a;
+	cout <<" a ning kvadrati " << a*a;
+	cout << " a ning 4 - darajasi " << pow(a,4);
+	cout << "a ning 8- darajasi" << pow(a,8);
+	return 0;
+}
+*/
+
+// TASK 29
+// Maqsad: alfa burchakni radianda ifodalash
+/*
+int main(){
+	float r, a, pi = 3.14;
+	cout << "alfa = "; cin >> a;
+	cout << a << " gradus = " << a * pi /180 << " radian";
+	return 0; 
+}
+*/
