@@ -396,3 +396,98 @@ int main(){
 	return 0; 
 }
 */
+
+// TASK 30
+// Maqsad: radiandan gradusga o`tish
+/*
+int main(){
+	float a, r, pi = 3.14;
+	cout << "Radian = "; cin >> r;
+	cout << "Gradus = " << r * 180/pi;
+	return 0;
+}
+*/
+
+// TASK 31, TASK 32
+// Maqsad: farengeytdan gradus selsiyga o`tish
+/*
+int main(){
+	float Tc, Tf;
+	cout << "Farengeyt = "; cin >> Tf;
+	Tc = (Tf - 32)*5/9;
+	cout << "Gradus selsiy = " << Tc;
+	return 0;
+}
+*/
+// - 33, 34
+
+// TASK 35 
+// Maqsad: qayiqning yurgan yo`lini topish
+/*
+int main(){
+	float v, vo, t1, t2, S;
+	cout << "Oqimning tezligi qancha >>>"; cin >> vo;
+	cout << "Qayiqning tezligi qancha >>>"; cin >> v;
+	cout << "Oqim bo`ylay qancha vaqt harakatlangan >>> "; cin >> t1;
+	cout << "Oqimga qarshi qancha vaqt harakatlangan >>> "; cin >> t2;
+	S = (v+vo)*t1 + (v-vo)*t2;
+	cout << "Qayiq bosib o`tgan masofa " << S << " m";
+	return 0;  
+}
+*/
+
+// TASK 36
+// Maqsad: t vaqtdan keyin avtomobillar orasidagi masofani aniqlash
+/*
+int main(){
+	float v1, v2, S, t;
+	cout << "1-avtomobilning tezligi >>> "; cin >> v1;
+	cout << "2-avtomobilning tezligi >>> "; cin >> v2;
+	cout << "Harakatlangan vaqt >>> "; cin >> t;
+	S = (v1 + v2)*t;
+	cout << "Ular orasidagi masofa " << S << " m";
+	return 0;
+}
+*/
+
+// TASK 36 ~ TASK 37
+
+// TASK 38
+// Maqsad: chiziqli tenglamaning yechimlarnini topish
+/*
+int main(){
+	float a, x, b, y;
+	cout << "Ax + B = Y" << endl;
+	cout << "A = "; cin >> a;
+	cout << "B = "; cin >> b;
+	cout << "Y = "; cin >> y;
+	x = (y-b)/a;
+	cout << "x = " << x;
+	return 0;
+}
+*/
+
+// TASK 39  if else
+
+// TASK 40 
+// Maqsad: chiziqli tenglamalar sistemasini yechish
+/*
+int main(){
+	float a1, b1, x, y, c1, c2, a2, b2, d;
+	cout << "A1x + B1y = C1" << endl;
+	cout << "A2x + B2y = C2" << endl;
+	cout << "A1 = "; cin >> a1;
+	cout << "B1 = "; cin >> b1;
+	cout << "A2 = "; cin >> a2;
+	cout << "B2 = "; cin >> b2;
+	cout << "C1 = "; cin >> c1;
+	cout << "C2 = "; cin >> c2;
+	d = a1*b2 - a2*b1;
+	x = (c1 * b2 - c2 * b1)/d;
+	y = (a1 * c2 - a2*c1)/d;
+	cout << "x = " << x << endl;
+	cout << "y = " << y << endl;
+	return 0;
+	
+}
+*/
