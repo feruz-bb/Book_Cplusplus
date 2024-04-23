@@ -174,11 +174,37 @@ int main(){
 }
 */
 
+// TASK 16
+// Maqsad: uch xonali sonning o'nlar xonasidagi raqaamni birlar xonasiga o'tkazish
+/*
+int main(){
+	int a, n;
+	cout << "a = ";
+	cin >> a;
+	cout << a / 100 << a % 10 << (a % 100) / 10;
+}
+*/
 
+// TASK 17
+// Maqsad: 4 xonali sonning 100 lar xonasidagi raqamni topish
+/*
+int main(){
+	int a;
+	cout << "a = "; cin >> a;
+	cout << (a / 100) % 10;
+}
+*/
 
+// TASK 18
+// Maqsad: 999 dan katta bo`lgan sonning 1000 lar xonasidagi raqam
+/*
+int main(){
+	int a;
+	cout << "a = "; cin >> a;
+	cout << (a % 10000) / 1000;
+}
+*/
 
-
-
-
-
+// TASK 19
+// Maqsad: 
 
